@@ -1,0 +1,80 @@
+Exercício da aula 12A
+
+1. Faça um algoritmo que receba dois números e ao final mostre o resultado da soma dos dois números
+	
+	Inicio								Inicio
+								inteiro primeiroNumero, segundoNumero, soma;
+//Entrada de dados
+	Ler primeiroNumero		|	leia primeiroNumero
+	Ler segundoNufmero		|	leia segundoNumero
+//Processamento				|
+	calcular a somar		| 	soma = primeiroNumero + segundoNumero
+// Saída de dados			|
+	exibir o resultado		|	escreva soma
+
+2. Faça um algoritmo para informar à Joãozinho se ele foi aprovado na matéria de Lógica para programação. Joãozinho fez 3 provas e a média necessária para ser aprovado é de 7 pontos.
+
+	Inicio											Inicio
+											| real nota1, nota2, nota3, media;
+//Entrada de dados							|
+	Ler primeira nota1						| leia nota1;
+	Ler segunda nota1						| leia nota2;
+	Ler terceira nota1						| leia nota3;
+//Processamento								|
+	somar as três notas e dividir por 3 	| media = (nota1 + nota2 + nota3) / 3;
+	Se media igual ou maior que 7 APROVADO	| 
+	Senão REPROVADO							| se media >= 7 entao	
+// Saída de dados							| 	escreva "APROVADO";
+	Exibir resultado						| senão
+											| 	escreva "REPROVADO";
+											| FIM se
+											| 
+----------------------------------------------------------------------------------------------------------
+3. Faça um algorimto para determinar o consumo médio de um automóvel sendo fonecida a distância total percorrida pelo altomóvel e o total de combustível gasto.
+		Inicio								| 			Inicio					
+											|	real distanciaPercorrida, combustivelGasto, consumoMedio;
+//Entrada de dados							|
+	Ler Distancia percorrida 				|	leia distanciaPercorrida;
+	Ler Total de combustível gasto 			| 	leia combustivelGasto;
+//Processamento 							|
+	Calcular consumo médio 					| 	consumoMedio = distanciaPercorrida / combustivelGasto;
+// Saída de dados 							|
+	Exibir resultado 						| 	escreva consumoMedio;
+
+----------------------------------------------------------------------------------------------------------
+4. Faça um algoritmo para realizar a tarefa de tomar banho.
+	Entrar no banheiro
+	Ligar a luz
+	Tirar a roupa
+	Ligar o chuveiro
+	Molhar o corpo
+	Desligar o chuveiro
+	Pegar o sabonete
+	Passar no corpo
+	Esfregar o corpo
+	Ligar o Chuveiro
+	Tirar o sabão do corpo
+	Desligar o chuveiro
+	Pegar a toalha
+	Se enxugar
+	Desligar a luz
+	Sair do banheiro.
+
+5. Faça um algoritmo para preparar um macarrão instantâneo. Parta do princípio de que você está na cozinha e deve preparáp-lo e servi-lo.
+
+	Reunir os ingredientes
+	Ligar o fogo
+	pegar a panela
+	colocar água
+	abrir o pacote de macarrão
+	colocar na panela
+	esperar o tempo de cozimento
+	desligar o fogo
+	retirar o macarrão da panela
+	Pegar outra panela
+	Colocar os temperos
+	temperar o macarrão
+	desligar o fogo
+	colocar uma quantidade no prato
+	servir
+
